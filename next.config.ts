@@ -1,7 +1,12 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  output: 'export',
+  images: {
+    unoptimized: true,
+  },
+  // Uncomment and set basePath when deploying to GitHub Pages
+  // basePath: '/your-repo-name',
 };
 
 export default nextConfig;
