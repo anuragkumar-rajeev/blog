@@ -6,7 +6,7 @@ const nextConfig: NextConfig = {
     unoptimized: true,
   },
   // Uncomment and set basePath when deploying to GitHub Pages
-  basePath: '/anurag',
+  // basePath: '/anurag',
 };
 
 export default nextConfig;
